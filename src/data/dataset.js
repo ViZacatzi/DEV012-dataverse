@@ -11,9 +11,6 @@ export default [
       "birthPlace": "Alejandría, Egipto",
       "mainField": "Politica"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
   },
   {
     "id": "hypatia-de-alejandria",
@@ -27,9 +24,6 @@ export default [
       "birthPlace": "Alejandría, Egipto",
       "mainField": "Matemáticas, Filosofía"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
   },
   {
     "id": "juana-de-arco",
@@ -43,9 +37,6 @@ export default [
       "birthPlace": "Domrémy, Francia",
       "mainField": "Heroina"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
   },
   {
     "id": "rigoberta-menchu",
@@ -58,9 +49,6 @@ export default [
       "birthPlace": "Uspantán, Guatemala",
       "mainField": "Matemáticas"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
     "id": "marie-curie",
@@ -74,9 +62,6 @@ export default [
       "birthPlace": "Varsovia, Polonia",
       "mainField": "Física y Química"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
     "id": "amelia-earhart",
@@ -90,9 +75,6 @@ export default [
       "birthPlace": "Atchison, Kansas, EE. UU.",
       "mainField": "Aviación"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
   },
   {
     "id": "rosa-parks",
@@ -106,9 +88,6 @@ export default [
       "birthPlace": "Tuskegee, Alabama, EE. UU.",
       "mainField": "Activista"
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
   },
   {
     "id": "frida-kahlo",
@@ -122,9 +101,6 @@ export default [
       "birthPlace": "Coyoacán, México",
       "mainField": "Artes"
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
   },
   {
     "id": "mary-shelley",
@@ -138,9 +114,6 @@ export default [
       "birthPlace": "Londres, Reino Unido",
       "mainField": "Escritora"
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
   },
   {
     "id": "sor-juana-inés-de-la-cruz",
@@ -154,9 +127,6 @@ export default [
       "birthPlace": "San Miguel Nepantla, México",
       "mainField": "Poesia y Filosofia"
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
   },
   {
     "id": "emily-dickinson",
@@ -170,9 +140,6 @@ export default [
       "birthPlace": "Amherst, Massachusetts, EE. UU.",
       "mainField": "Poesia"
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
   },
   {
     "id": "ella-fitzgerald",
@@ -186,9 +153,6 @@ export default [
       "birthPlace": "Newport News, Virginia, EE. UU.",
       "mainField": "Musica"
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
   },
   {
     "id": "harriet-tubman",
@@ -202,9 +166,6 @@ export default [
       "birthPlace": "Condado de Dorchester, Maryland, EE. UU.",
       "mainField": "Abolicionista"
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
   },
   {
     "id": "janis-joplin",
@@ -218,9 +179,6 @@ export default [
       "birthPlace": "Port Arthur, Texas, EE. UU.",
       "mainField": "Música"
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
   },
   {
     "id": "jane-austen",
@@ -234,9 +192,6 @@ export default [
       "birthPlace": "Steventon, Inglaterra",
       "mainField": "Escritora"
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
   },
   {
     "id": "sojourner-truth",
@@ -250,9 +205,6 @@ export default [
       "birthPlace": "Hurley, Nueva York, EE. UU.",
       "mainField": "Abolicionista"
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
   },
   {
     "id": "susan-b-anthony",
@@ -266,9 +218,6 @@ export default [
       "birthPlace": "Adams, Massachusetts, EE. UU.",
       "mainField": "Política"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
   },
   {
     "id": "mary-wollstonecraft",
@@ -282,9 +231,6 @@ export default [
       "birthPlace": "Londres, Inglaterra",
       "mainField": "Filosofía"
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
   },
   {
     "id": "jane-goodall",
@@ -297,9 +243,6 @@ export default [
       "birthPlace": "Londres, Inglaterra",
       "mainField": "Primatóloga, Etóloga"
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
   },
   {
     "id": "maya-angelou",
@@ -313,9 +256,6 @@ export default [
       "birthPlace": "St. Louis, Missouri, EE. UU.",
       "mainField": "Escritora y Activista"
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
   },
   {
     "id": "madre-teresa",
@@ -329,9 +269,6 @@ export default [
       "birthPlace": "Skopje, Macedonia",
       "mainField": "Activista"
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
   },
   {
     "id": "virginia-woolf",
@@ -345,9 +282,6 @@ export default [
       "birthPlace": "Londres, Inglaterra",
       "mainField": "Escritora"
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
   },
   {
     "id": "marie-stopes",
@@ -361,9 +295,6 @@ export default [
       "birthPlace": "Edimburgo, Escocia",
       "mainField": "Botánica, Paleontóloga, Escritora, Biologa y Sexóloga"
     },
-    "extraInfo": {
-      "imageSource": "https://www.esa.int/ESA_Multimedia/Images/2020/07/Artistic_illustration_of_Rosalind_Franklin"
-    }
   }
   {
     "id": "gabriela-mistral",
@@ -377,8 +308,5 @@ export default [
       "birthPlace": "Vicuña, Chile",
       "mainField": "Poesia, Diplomata"
     },
-    "extraInfo": {
-      "imageSource": "https://www.esa.int/ESA_Multimedia/Images/2020/07/Artistic_illustration_of_Rosalind_Franklin"
-    }
   }
 ];

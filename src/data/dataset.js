@@ -299,7 +299,7 @@ export default [
   {
     "id": "gabriela-mistral",
     "name": "Gabriela Mistral",
-    "shortDescription": "Primera mujer latinoamericana en recibir el Premio Nobel de Literatura en 1945.",
+    "shortDescription": "Primera mujer latinoamericana en recibir el Premio Nobel de Literatura en 1945",
     "description": "Renombrada poeta, diplomática y educadora chilena. Fue la primera mujer latinoamericana en recibir el Premio Nobel de Literatura en 1945. Sus poemas abordan temas de amor, maternidad, y justicia social, y su obra ha dejado una huella perdurable en la literatura hispana. Además, desempeñó un papel importante en la educación de la infancia y en la promoción de los derechos de los niños.",
     "imageUrl": "https://th.bing.com/th/id/OIG.8ofh33fpO_zbWPCnJAv2?w=270&h=270&c=6&r=0&o=5&dpr=1.5&pid=ImgGn",
     "facts": {

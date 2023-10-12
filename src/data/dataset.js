@@ -9,7 +9,7 @@ export default [
       "yearOfBirth": "69 a.C.",
       "yearOfDeath": "30 a.C.",
       "birthPlace": "Alejandría, Egipto",
-      "mainField": "Politica"
+      "mainField": "Política"
     },
   },
   {
@@ -22,7 +22,7 @@ export default [
       "yearOfBirth": "circa 360",
       "yearOfDeath": "415",
       "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "mainField": "Matemática y filosofa"
     },
   },
   {
@@ -35,7 +35,7 @@ export default [
       "yearOfBirth": "1412",
       "yearOfDeath": "1431",
       "birthPlace": "Domrémy, Francia",
-      "mainField": "Heroina"
+      "mainField": "Heroína"
     },
   },
   {
@@ -47,7 +47,7 @@ export default [
     "facts": {
       "yearOfBirth": "1959",
       "birthPlace": "Uspantán, Guatemala",
-      "mainField": "Matemáticas"
+      "mainField": "Activista"
     },
   },
   {
@@ -73,13 +73,13 @@ export default [
       "yearOfBirth": "1897",
       "yearOfDeath": "1937",
       "birthPlace": "Atchison, Kansas, EE. UU.",
-      "mainField": "Aviación"
+      "mainField": "Aviadora"
     },
   },
   {
     "id": "rosa-parks",
     "name": "Rosa Parks",
-    "shortDescription": "Activistapor los derechos civiles",
+    "shortDescription": "Activista por los derechos civiles",
     "description": "Activista por los derechos civiles que desempeñó un papel fundamental en el movimiento por los derechos civiles al negarse a ceder su asiento en un autobús.",
     "imageUrl": "https://th.bing.com/th/id/OIG.eRH1CGkPPP.SH0ROteyv?pid=ImgGn",
     "facts": {
@@ -99,7 +99,7 @@ export default [
       "yearOfBirth": "1907",
       "yearOfDeath": "1954",
       "birthPlace": "Coyoacán, México",
-      "mainField": "Artes"
+      "mainField": "Artista"
     },
   },
   {
@@ -125,7 +125,7 @@ export default [
       "yearOfBirth": "1648",
       "yearOfDeath": "1695",
       "birthPlace": "San Miguel Nepantla, México",
-      "mainField": "Poesia y Filosofia"
+      "mainField": "Poetisa y filósofa"
     },
   },
   {
@@ -138,7 +138,7 @@ export default [
       "yearOfBirth": "1830",
       "yearOfDeath": "1886",
       "birthPlace": "Amherst, Massachusetts, EE. UU.",
-      "mainField": "Poesia"
+      "mainField": "Poetisa"
     },
   },
   {
@@ -151,7 +151,7 @@ export default [
       "yearOfBirth": "1917",
       "yearOfDeath": "1996",
       "birthPlace": "Newport News, Virginia, EE. UU.",
-      "mainField": "Musica"
+      "mainField": "Cantante"
     },
   },
   {
@@ -177,7 +177,7 @@ export default [
       "yearOfBirth": "1943",
       "yearOfDeath": "1970",
       "birthPlace": "Port Arthur, Texas, EE. UU.",
-      "mainField": "Música"
+      "mainField": "Cantante"
     },
   },
   {
@@ -229,7 +229,7 @@ export default [
       "yearOfBirth": "1759",
       "yearOfDeath": "1797",
       "birthPlace": "Londres, Inglaterra",
-      "mainField": "Filosofía"
+      "mainField": "Filósofa y escritora"
     },
   },
   {
@@ -241,7 +241,7 @@ export default [
     "facts": {
       "yearOfBirth": "1934",
       "birthPlace": "Londres, Inglaterra",
-      "mainField": "Primatóloga, Etóloga"
+      "mainField": "Primatóloga y etóloga"
     },
   },
   {
@@ -254,7 +254,7 @@ export default [
       "yearOfBirth": "1928",
       "yearOfDeath": "2014",
       "birthPlace": "St. Louis, Missouri, EE. UU.",
-      "mainField": "Escritora y Activista"
+      "mainField": "Escritora y activista"
     },
   },
   {
@@ -293,7 +293,7 @@ export default [
       "yearOfBirth": "1880",
       "yearOfDeath": "1958",
       "birthPlace": "Edimburgo, Escocia",
-      "mainField": "Botánica, Paleontóloga, Escritora, Biologa y Sexóloga"
+      "mainField": "Botánica, paleontóloga, escritora, bióloga y sexóloga"
     },
   }
   {
@@ -306,7 +306,7 @@ export default [
       "yearOfBirth": "1889",
       "yearOfDeath": "1957",
       "birthPlace": "Vicuña, Chile",
-      "mainField": "Poesia, Diplomata"
+      "mainField": "Poetisa y diplomatica"
     },
   }
 ];

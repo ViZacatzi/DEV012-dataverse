@@ -31,3 +31,13 @@ main h2 select{
 /*button{
     
 }*/
+
+
+.encabezado{ 
+    background-image: url(imagenes/img1.jpg);
+height: 200px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}

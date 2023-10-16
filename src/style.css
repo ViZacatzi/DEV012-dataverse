@@ -6,4 +6,13 @@ img src="imagenes/img1.jpg"
 h1.titulo{
     text-align: center;
 color:darkkhaki;
+font-size: 40px;
+}
+.encabezado{ 
+    background-image: url(imagenes/img1.jpg);
+height: 200px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }

@@ -307,6 +307,6 @@ export default [
       "yearOfDeath": "1957",
       "birthPlace": "Vicuña, Chile",
       "mainField": "Poetisa y diplomatica"
-    }
-  }
+    },
+  },
 ];

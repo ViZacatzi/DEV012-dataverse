@@ -295,7 +295,7 @@ export default [
       "birthPlace": "Edimburgo, Escocia",
       "mainField": "Botánica, paleontóloga, escritora, bióloga y sexóloga"
     },
-  }
+  },
   {
     "id": "gabriela-mistral",
     "name": "Gabriela Mistral",
@@ -307,6 +307,6 @@ export default [
       "yearOfDeath": "1957",
       "birthPlace": "Vicuña, Chile",
       "mainField": "Poetisa y diplomatica"
-    },
+    }
   }
 ];

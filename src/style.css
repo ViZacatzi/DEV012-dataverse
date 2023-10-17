@@ -5,16 +5,17 @@ img src="imagenes/img1.jpg"
 
 h1.titulo{
     text-align: center;
-color:#E1D599;
+color:cornsilk;
 font-size: 50px;
 }
 .encabezado{ 
-    background-image: url(imagenes/img2.jpg);
+background-image: url(imagenes/img2.jpg);
 height: 200px;
 background-size: cover;
 display: flex;
 flex-direction: column;
 justify-content: center;
+margin-top: 0px;
 }
 body{
     background-color: #FFFAEA;
@@ -28,9 +29,8 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8px;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
     margin-top: 0px;
+    
     
 }
 main h2 select{

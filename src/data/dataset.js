@@ -308,5 +308,5 @@ export default [
       "birthPlace": "Vicuña, Chile",
       "mainField": "Poetisa y diplomatica"
     },
-  }
+  },
 ];

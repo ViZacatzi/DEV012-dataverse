@@ -3,20 +3,22 @@ url(imagenes/img1.jpg)
 img src="imagenes/img1.jpg"
 */
 
-h1.titulo{
+h1[name="titulo"]{
     text-align: center;
 color:cornsilk;
 font-size: 50px;
 }
-.encabezado{ 
+
+header[name="encabezado"]{ 
 background-image: url(imagenes/img2.jpg);
 height: 200px;
 background-size: cover;
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-top: 0px;
+margin-bottom: 0px;
 }
+
 body{
     background-color: #FFFAEA;
 }
@@ -27,15 +29,14 @@ main{
     box-shadow: 2px 2px 5px #72716f;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 8px;
-    text-align: center;
-    margin-top: 0px;
-    
-    
+    font-size: 15px;
+    text-align:center;   
 }
-main h2 select{
-    margin-left: 10px;
-    margin-right: 100px;
+select[name="filtros"]{
+    margin-right: 200px;
+}
+select[name="abecedario"]{
+    margin-right: 200px;
 }
 footer{
     text-align: center;

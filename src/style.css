@@ -38,9 +38,11 @@ select[name="filtros"]{
 select[name="abecedario"]{
     margin-right: 200px;
 }
-footer{
+
+footer[name="pie-de-pagina"]{
     text-align: center;
     background-color: #E1D599;
+    position: absolute;
 }
 
 /*button{

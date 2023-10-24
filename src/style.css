@@ -5,18 +5,18 @@ img src="imagenes/img1.jpg"
 
 h1[name="titulo"]{
     text-align: center;
-color:cornsilk;
-font-size: 50px;
+    color:cornsilk;
+    font-size: 50px;
 }
 
 header[name="encabezado"]{ 
-background-image: url(imagenes/img2.jpg);
-height: 200px;
-background-size: cover;
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-bottom: 0px;
+    background-image: url(imagenes/img2.jpg);
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
 }
 
 body{
@@ -44,7 +44,12 @@ footer[name="pie-de-pagina"]{
     background-color: #E1D599;
     position: absolute;
 }
-
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
 /*button{
     
 }*/

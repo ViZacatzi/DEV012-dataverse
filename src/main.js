@@ -5,7 +5,16 @@ import data from './data/dataset.js';
 
 console.log(example, renderItems(data), data);
 
-const div = document.querySelector("#root")
+const llamadodeTarjeta = document.querySelector("#root");
 
-div.innerHTML = renderItems(data)
+llamadodeTarjeta.innerHTML = renderItems(data);
+
+
+const selecionar = document.querySelector('select[name="filtros"]');
+
+selecionar.addEventListener("change", function () {
+  //selecionar.textContent = dataFunction.example;
+  alert("hola");
+
+});
 

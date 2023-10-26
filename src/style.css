@@ -3,53 +3,72 @@ url(imagenes/img1.jpg)
 img src="imagenes/img1.jpg"
 */
 
-h1[name="titulo"]{
-    text-align: center;
-    color:cornsilk;
-    font-size: 50px;
+h1[name="titulo"] {
+  text-align: center;
+  color: cornsilk;
+  font-size: 50px;
 }
 
-header[name="encabezado"]{ 
-    background-image: url(imagenes/img2.jpg);
-    height: 200px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 0px;
+header[name="encabezado"] {
+  background-image: url(imagenes/img2.jpg);
+  height: 160px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0px;
+  border-radius: 10px;
 }
 
-body{
-    background-color: #FFFAEA;
+body {
+  background-color: #fffaea;
 }
-main{
-
-    background-color: #E1D599;
-    padding: 1px;
-    box-shadow: 2px 2px 5px #72716f;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align:center;   
+main {
+  background-color: lemonchiffon;
+  padding: 5px;
+  box-shadow: 2px 2px 5px #72716f;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 10px;
 }
-select[name="filtros"]{
-    margin-right: 200px;
+select[name="filtros"] {
+  margin-right: 200px;
+  border-radius: 10px;
 }
-select[name="abecedario"]{
-    margin-right: 200px;
-}
-
-footer[name="pie-de-pagina"]{
-    text-align: center;
-    background-color: #E1D599;
-    position: absolute;
+select[name="abecedario"] {
+  margin-right: 200px;
+  border-radius: 10px;
 }
 .card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-  }
-/*button{
-    
-}*/
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+.estilo-tarjetas {
+  display: inline-block;
+  font-size: 12px;
+  max-width: 200px;
+  max-height: 350px;
+  background-color: rgb(248, 216, 212);
+  margin: 15px;
+  border-radius: 10px;
+}
+.estilo-imagen {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  text-align: center;
+}
+dd[itemprop="name"] {
+  font-size: 15px;
+  display: inline-block;
+}
+footer[name="pie-de-pagina"] {
+  text-align: center;
+  background-color:lemonchiffon;
+  padding: 1px;
+  font-size: 20px;
+}

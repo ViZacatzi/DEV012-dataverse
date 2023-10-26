@@ -1,7 +1,7 @@
-import { example } from './dataFunctions.js';
-import { renderItems } from './view.js';
+import { example } from "./dataFunctions.js";
+import { renderItems } from "./view.js";
 
-import data from './data/dataset.js';
+import data from "./data/dataset.js";
 
 console.log(example, renderItems(data), data);
 
@@ -17,4 +17,6 @@ selecionar.addEventListener("change", function () {
   alert("hola");
 
 });
+const div = document.querySelector("#root");
 
+div.innerHTML = renderItems(data);

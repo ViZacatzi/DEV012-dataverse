@@ -1,43 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Grandes mujeres de la historia</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header name="encabezado"><h1 name="titulo">GRANDES MUJERES DE LA HISTORIA</h1></header>
+    <header name="encabezado">
+      <h1 name="titulo">GRANDES MUJERES DE LA HISTORIA</h1>
+    </header>
     <main>
       <nav>
-      <div>
-        <label>Filtrar por Diciplina:</label> 
-        <select name="filtros" data-testid="select-filter">
-          <option value="activista">Activista</option>
-          <option value="artista">Artista</option>
-          <option value="aviadora">Aviadora</option>
-          <option value="botanica">Botanica</option>
-          <option value="cantante">Cantante</option>
-          <option value="escritora">Escritora</option>
-          <option value="etologa">Etóloga</option>
-          <option value="filosofa">Filósofa</option>
-          <option value="fisica">Física</option>
-          <option value="matematica">Matematica</option>
-          <option value="poetisa">Poetisa</option>
-          <option value="politica">Política</option>
-          <option value="quimica">Química</option>
-        </select>
-        <label>Short By Name</label>
-        <select name="abecedario" data-testid="select-sort">
-          <option value="asc">A - Z</option>
-          <option value="desc">Z - A</option>
-        </select>
-        <button data-testid="button-clear">Clear</button>
-      </div>
+        <div>
+          <label>Filter By:</label>
+          <select name="filtros" data-testid="select-filter">
+            <option value="nombre">Nombre</option>
+            <option value="nacimiento">Año de Nacimiento</option>
+            <option value="disciplina">Diciplina</option>
+          </select>
+          <label>Short By Name</label>
+          <select name="abecedario" data-testid="select-sort">
+            <option value="asc">A - Z</option>
+            <option value="desc">Z - A</option>
+          </select>
+          <button data-testid="button-clear">Clear</button>
+        </div>
       </nav>
     </main>
     <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>
-  <footer name="pie-de-pagina">Creadoras: Victoria Zacatzi y Aketzali Matus</footer>
+  <footer name="pie-de-pagina">
+    Creadoras: Victoria Zacatzi y Aketzali Matus
+  </footer>
 </html>
-

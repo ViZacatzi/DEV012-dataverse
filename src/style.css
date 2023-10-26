@@ -7,6 +7,7 @@ h1[name="titulo"] {
   text-align: center;
   color: cornsilk;
   font-size: 50px;
+  font-family: fantasy;
 }
 
 header[name="encabezado"] {
@@ -17,7 +18,7 @@ header[name="encabezado"] {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 0px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 body {
@@ -50,16 +51,17 @@ select[name="abecedario"] {
 .estilo-tarjetas {
   display: inline-block;
   font-size: 12px;
-  max-width: 200px;
+  font-family: fantasy;
+  text-align:left;
+  max-width: 225px;
   max-height: 350px;
   background-color: rgb(248, 216, 212);
-  margin: 15px;
+  margin: 35px;
   border-radius: 10px;
 }
 .estilo-imagen {
-  width: 200px;
-  height: 200px;
-  border-radius: 12px;
+  width: 225px;
+  height: 225px;
   text-align: center;
 }
 dd[itemprop="name"] {
@@ -70,5 +72,14 @@ footer[name="pie-de-pagina"] {
   text-align: center;
   background-color:lemonchiffon;
   padding: 1px;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: cursive;
+}
+button[data-testid="button-clear"] {
+  width: 150px;
+  height: 30px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 1px 1px 3px #72716f;
+  border: #dd079d;
+  border-radius: 10px;
 }

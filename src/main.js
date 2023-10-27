@@ -1,22 +1,25 @@
-import { example } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
+import { filterData } from "./dataFunctions.js";
+import { anotherExample } from "./dataFunctions.js";
 
 import data from "./data/dataset.js";
 
-console.log(example, renderItems(data), data);
+//console.log(example, renderItems(data), data);
 
 const llamadodeTarjeta = document.querySelector("#root");
 
 llamadodeTarjeta.innerHTML = renderItems(data);
 
-
-const selecionar = document.querySelector('select[name="filtros"]');
+const selecionar = document.querySelector('select[name="filtroDisciplina"]');
 
 selecionar.addEventListener("change", function () {
-  //selecionar.textContent = dataFunction.example;
-  alert("hola");
+  const selecionarDisciplina = selecionar.value;
 
+  const filtroPorDisciplina = filterData(
+    data,
+    "mainField",
+    selecionarDisciplina
+  );
+  llamadodeTarjeta.innerHTML = renderItems(filtroPorDisciplina);
 });
-const div = document.querySelector("#root");
 
-div.innerHTML = renderItems(data);

@@ -1,9 +1,9 @@
-import { example } from "./dataFunctions.js";
+import { filterdata } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
 
-console.log(example, renderItems(data), data);
+console.log(filterdata(data, [facts]));
 
 const llamadodeTarjeta = document.querySelector("#root");
 
@@ -20,3 +20,5 @@ selecionar.addEventListener("change", function () {
 const div = document.querySelector("#root");
 
 div.innerHTML = renderItems(data);
+
+

@@ -34,7 +34,7 @@ main {
   text-align: center;
   border-radius: 10px;
 }
-select[name="filtros"] {
+select[name="filtroDisciplina"] {
   margin-right: 200px;
   border-radius: 10px;
 }

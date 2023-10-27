@@ -9,7 +9,7 @@ export default [
       yearOfBirth: "69 a.C.",
       yearOfDeath: "30 a.C.",
       birthPlace: "Alejandría, Egipto",
-      mainField: "Política",
+      mainField: "Politica",
     },
   },
   {
@@ -22,7 +22,7 @@ export default [
       yearOfBirth: "circa 360",
       yearOfDeath: "415",
       birthPlace: "Alejandría, Egipto",
-      mainField: "Matemática y filosofa",
+      mainField: "Filosofa, Matematica",
     },
   },
   {
@@ -35,7 +35,7 @@ export default [
       yearOfBirth: "1412",
       yearOfDeath: "1431",
       birthPlace: "Domrémy, Francia",
-      mainField: "Heroína",
+      mainField: "Politica",
     },
   },
   {
@@ -61,7 +61,7 @@ export default [
       yearOfBirth: "1867",
       yearOfDeath: "1934",
       birthPlace: "Varsovia, Polonia",
-      mainField: "Física y Química",
+      mainField: "Fisica",
     },
   },
   {
@@ -124,7 +124,7 @@ export default [
   {
     id: "sor-juana-inés-de-la-cruz",
     name: "Sor Juana Inés de la Cruz",
-    shortDescription: "Poetisa, filósofa.",
+    shortDescription: "Escritora, Filósofa",
     description:
       "Poetisa, filósofa y defensora de los derechos de las mujeres en la época colonial.",
     imageUrl: "https://th.bing.com/th/id/OIG.U8CoBjOe2YeIn1802Cs0?pid=ImgGn",
@@ -132,7 +132,7 @@ export default [
       yearOfBirth: "1648",
       yearOfDeath: "1695",
       birthPlace: "San Miguel Nepantla, México",
-      mainField: "Poetisa y filósofa",
+      mainField: "Escritora, Filosofa",
     },
   },
   {
@@ -146,7 +146,7 @@ export default [
       yearOfBirth: "1830",
       yearOfDeath: "1886",
       birthPlace: "Amherst, Massachusetts, EE. UU.",
-      mainField: "Poetisa",
+      mainField: "Escritora",
     },
   },
   {
@@ -160,7 +160,7 @@ export default [
       yearOfBirth: "1917",
       yearOfDeath: "1996",
       birthPlace: "Newport News, Virginia, EE. UU.",
-      mainField: "Cantante",
+      mainField: "Artista",
     },
   },
   {
@@ -174,7 +174,7 @@ export default [
       yearOfBirth: "1822",
       yearOfDeath: "1913",
       birthPlace: "Condado de Dorchester, Maryland, EE. UU.",
-      mainField: "Abolicionista",
+      mainField: "Activista",
     },
   },
   {
@@ -188,7 +188,7 @@ export default [
       yearOfBirth: "1943",
       yearOfDeath: "1970",
       birthPlace: "Port Arthur, Texas, EE. UU.",
-      mainField: "Cantante",
+      mainField: "Artista",
     },
   },
   {
@@ -216,7 +216,7 @@ export default [
       yearOfBirth: "1797",
       yearOfDeath: "1883",
       birthPlace: "Hurley, Nueva York, EE. UU.",
-      mainField: "Abolicionista",
+      mainField: "Activista",
     },
   },
   {
@@ -230,7 +230,7 @@ export default [
       yearOfBirth: "1820",
       yearOfDeath: "1906",
       birthPlace: "Adams, Massachusetts, EE. UU.",
-      mainField: "Política",
+      mainField: "Politica",
     },
   },
   {
@@ -244,7 +244,7 @@ export default [
       yearOfBirth: "1759",
       yearOfDeath: "1797",
       birthPlace: "Londres, Inglaterra",
-      mainField: "Filósofa y escritora",
+      mainField: "Filosofa, Escritora",
     },
   },
   {
@@ -272,7 +272,7 @@ export default [
       yearOfBirth: "1928",
       yearOfDeath: "2014",
       birthPlace: "St. Louis, Missouri, EE. UU.",
-      mainField: "Escritora y activista",
+      mainField: "Escritora, Activista",
     },
   },
   {
@@ -331,7 +331,7 @@ export default [
       yearOfBirth: "1889",
       yearOfDeath: "1957",
       birthPlace: "Vicuña, Chile",
-      mainField: "Poetisa y diplomatica",
+      mainField: "Escritora, Politica",
     },
   },
 ];

@@ -1,4 +1,3 @@
-import { filterdata } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 import { filterData } from "./dataFunctions.js";
 import { anotherExample } from "./dataFunctions.js";

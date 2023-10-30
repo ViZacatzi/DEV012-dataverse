@@ -315,7 +315,7 @@ export default [
       yearOfBirth: "1880",
       yearOfDeath: "1958",
       birthPlace: "Edimburgo, Escocia",
-      mainField: "Botánica, paleontóloga, escritora, bióloga y sexóloga",
+      mainField: "Botanica, Paleontóloga, Escritora, Biologa, Sexologa",
     },
   },
   {

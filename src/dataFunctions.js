@@ -4,6 +4,6 @@ export const filterData = (data, filterBy, value) => {
   return data.filter((item) => item.facts[filterBy].includes(value));
 };
 
-export const anotherExample = () => {
-  return [];
-};
+//export const anotherExample = (data)
+    
+  //return [];

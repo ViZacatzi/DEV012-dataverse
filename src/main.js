@@ -1,6 +1,6 @@
 import { renderItems } from "./view.js";
 import { filterData } from "./dataFunctions.js";
-import { anotherExample } from "./dataFunctions.js";
+//import { anotherExample } from "./dataFunctions.js";
 
 import data from "./data/dataset.js";
 
@@ -23,3 +23,16 @@ selecionar.addEventListener("change", function () {
   llamadodeTarjeta.innerHTML = renderItems(filtroPorDisciplina);
 });
 
+
+const selecionAlfabeticamente = document.querySelector('select[name="abecedario"]');
+
+selecionAlfabeticamente.addEventListener("change", function () {
+  const selecionAlfabetica = selecionAlfabeticamente.value;
+
+  const filtroAlfabetico = filterData(
+    data,
+    "name",
+    selecionAlfabetica
+  );
+  llamadodeTarjeta.innerHTML = renderItems(filtroPorDisciplina);
+}); 

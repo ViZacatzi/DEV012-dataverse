@@ -51,7 +51,7 @@ select[name="abecedario"] {
 .estilo-tarjetas {
   display: inline-block;
   font-size: 12px;
-  font-family: fantasy;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
   max-width: 225px;
   max-height: 350px;

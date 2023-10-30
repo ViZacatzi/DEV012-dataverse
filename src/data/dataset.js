@@ -173,7 +173,7 @@ export default [
     facts: {
       yearOfBirth: "1822",
       yearOfDeath: "1913",
-      birthPlace: "Condado de Dorchester, Maryland, EE. UU.",
+      birthPlace: "EE. UU.",
       mainField: "Activista",
     },
   },
@@ -315,7 +315,7 @@ export default [
       yearOfBirth: "1880",
       yearOfDeath: "1958",
       birthPlace: "Edimburgo, Escocia",
-      mainField: "Botánica, paleontóloga, escritora, bióloga y sexóloga",
+      mainField: "Botánica, paleontóloga y escritora",
     },
   },
   {

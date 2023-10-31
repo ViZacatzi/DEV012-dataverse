@@ -1,6 +1,6 @@
 import { renderItems } from "./view.js";
 import { filterData } from "./dataFunctions.js";
-//import { anotherExample } from "./dataFunctions.js";
+import { sortData } from "./dataFunctions.js";
 
 import data from "./data/dataset.js";
 
@@ -24,15 +24,24 @@ selecionar.addEventListener("change", function () {
 });
 
 
-const selecionAlfabeticamente = document.querySelector('select[name="abecedario"]');
+const selecionAlfabeticamente = document.querySelector('select[name="alfabeticamente"]');
 
 selecionAlfabeticamente.addEventListener("change", function () {
-  const selecionAlfabetica = selecionAlfabeticamente.value;
+  //alert("hola")
+  const selecionarAlfabetica = selecionAlfabeticamente.value;
 
-  const filtroAlfabetico = filterData(
+  const filtrarAlfabetica = sortData(
     data,
     "name",
-    selecionAlfabetica
+    selecionarAlfabetica
   );
-  llamadodeTarjeta.innerHTML = renderItems(filtroPorDisciplina);
+  console.log(filtrarAlfabetica)
+  llamadodeTarjeta.innerHTML = renderItems(filtrarAlfabetica);
 }); 
+
+//const button = document.querySelector('button["button-clear"]');
+
+//button.addEventListener("click", function () {
+ // alert("Hola")
+  //llamadodeTarjeta.innerHTML = renderItems(data);
+//});

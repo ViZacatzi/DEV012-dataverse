@@ -14,14 +14,16 @@
         <div>
           <label>Filtar por disciplina:</label>
           <select name="filtroDisciplina" data-testid="select-filter">
+            <option name="selecciona" value="seleccion">-Selecciona-</option>
             <option value="Activista">Activista</option>
             <option value="Artista">Artista</option>
             <option value="Escritora">Escritora</option>
-            <option value="Filosofa">Filosofa</option>
-            <option value="Politica">Politica</option>
+            <option value="Filosofa">Filósofa</option>
+            <option value="Politica">Política</option>
           </select>
-          <label>Short By Name</label>
+          <label>Ordenar alfabéticamente:</label>
           <select name="alfabeticamente" data-testid="select-sort">
+            <option name="selecciona" value="seleccion">-Selecciona-</option>
             <option value="asc">A - Z</option>
             <option value="desc">Z - A</option>
           </select>
@@ -29,6 +31,10 @@
         </div>
       </nav>
     </main>
+    <div name="estadistica">
+      <label>Estadística de mujeres latinas:</label>
+      <label>Estadística de mujeres extranjeras:</label>
+    </div>
     <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>

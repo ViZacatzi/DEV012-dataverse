@@ -40,9 +40,10 @@ selecionAlfabeticamente.addEventListener("change", function () {
 }); 
 
 const botonClear = document.querySelector('button[name="button-clear"]');
-
+const selectinicial = document.querySelector('option[value="seleccion"]')
 botonClear.addEventListener("click", function () {
- //console.log(botonClear)
+//console.log(selectinicial)
+selectinicial.value=""
   llamadodeTarjeta.innerHTML = renderItems(data);
 
 });

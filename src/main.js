@@ -39,9 +39,10 @@ selecionAlfabeticamente.addEventListener("change", function () {
   llamadodeTarjeta.innerHTML = renderItems(filtrarAlfabetica);
 }); 
 
-const botonClear = document.querySelector('button["button-clear"]');
+const botonClear = document.querySelector('button[name="button-clear"]');
 
 botonClear.addEventListener("click", function () {
- console.log(botonClear)
-  //llamadodeTarjeta.innerHTML = renderItems(data);
+ //console.log(botonClear)
+  llamadodeTarjeta.innerHTML = renderItems(data);
+
 });

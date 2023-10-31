@@ -22,4 +22,3 @@ selecionar.addEventListener("change", function () {
   );
   llamadodeTarjeta.innerHTML = renderItems(filtroPorDisciplina);
 });
-

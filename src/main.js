@@ -39,9 +39,9 @@ selecionAlfabeticamente.addEventListener("change", function () {
   llamadodeTarjeta.innerHTML = renderItems(filtrarAlfabetica);
 }); 
 
-//const button = document.querySelector('button["button-clear"]');
+const botonClear = document.querySelector('button["button-clear"]');
 
-//button.addEventListener("click", function () {
- // alert("Hola")
+botonClear.addEventListener("click", function () {
+ console.log(botonClear)
   //llamadodeTarjeta.innerHTML = renderItems(data);
-//});
+});

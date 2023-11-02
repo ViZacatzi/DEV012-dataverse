@@ -4,46 +4,45 @@ import { sortData } from "./dataFunctions.js";
 
 import data from "./data/dataset.js";
 
-//console.log(example, renderItems(data), data);
+//copia de la data original
+let dataFiltrada = [...data];
 
+//Llamado de todas las tarjetas de la data
 const llamadodeTarjeta = document.querySelector("#root");
-
 llamadodeTarjeta.innerHTML = renderItems(data);
 
+//Filtra por disciplina cuando se seleciona
 const selecionar = document.querySelector('select[name="filtroDisciplina"]');
 
 selecionar.addEventListener("change", function () {
   const selecionarDisciplina = selecionar.value;
 
-  const filtroPorDisciplina = filterData(
-    data,
-    "mainField",
-    selecionarDisciplina
-  );
-  llamadodeTarjeta.innerHTML = renderItems(filtroPorDisciplina);
+  dataFiltrada = filterData(data, "mainField", selecionarDisciplina);
+
+  llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
 });
 
+//Filtro acomulativo del filtro por disciplina ordenardo alfabeticamente
 
-const selecionAlfabeticamente = document.querySelector('select[name="alfabeticamente"]');
+const selecionAlfabeticamente = document.querySelector(
+  'select[name="alfabeticamente"]'
+);
 
 selecionAlfabeticamente.addEventListener("change", function () {
-  //alert("hola")
   const selecionarAlfabetica = selecionAlfabeticamente.value;
 
-  const filtrarAlfabetica = sortData(
-    data,
-    "name",
-    selecionarAlfabetica
-  );
-  console.log(filtrarAlfabetica)
-  llamadodeTarjeta.innerHTML = renderItems(filtrarAlfabetica);
-}); 
+  dataFiltrada = sortData(dataFiltrada, "name", selecionarAlfabetica);
+
+  llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
+});
+
+//Funcionalidad del botón, cuando se aprieta reinicia la página y las seleciones
 
 const botonClear = document.querySelector('button[name="button-clear"]');
-const selectinicial = document.querySelector('option[value="seleccion"]')
-botonClear.addEventListener("click", function () {
-//console.log(selectinicial)
-selectinicial.value=""
-  llamadodeTarjeta.innerHTML = renderItems(data);
 
+botonClear.addEventListener("click", function () {
+  selecionar.value = "seleccion";
+  selecionAlfabeticamente.value = "seleccion";
+  dataFiltrada = [...data];
+  llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
 });

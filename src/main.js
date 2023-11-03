@@ -1,6 +1,7 @@
 import { renderItems } from "./view.js";
 import { filterData } from "./dataFunctions.js";
 import { sortData } from "./dataFunctions.js";
+import { estadistica } from "./dataFunctions.js";
 
 import data from "./data/dataset.js";
 
@@ -46,3 +47,10 @@ botonClear.addEventListener("click", function () {
   dataFiltrada = [...data];
   llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
 });
+
+const estadisticasMujeresLatinas = document.querySelector('label[name="latinas"]');
+const estadisticasMujeresExtranjeras = document.querySelector('label[name="extranjeras"]');
+
+estadisticasMujeresLatinas.textContent = "Estadística de mujeres latinas:" + estadistica 
+estadisticasMujeresExtranjeras.textContent = "Estadística de mujeres extrangeras:" + estadistica
+console.log(estadistica)

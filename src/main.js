@@ -1,7 +1,8 @@
 import { renderItems } from "./view.js";
 import { filterData } from "./dataFunctions.js";
 import { sortData } from "./dataFunctions.js";
-import { estadistica } from "./dataFunctions.js";
+import { estadisticaMujeresLatinas } from "./dataFunctions.js";
+import { estadisticaMujeresExtranjeras } from "./dataFunctions.js";
 
 import data from "./data/dataset.js";
 
@@ -48,9 +49,8 @@ botonClear.addEventListener("click", function () {
   llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
 });
 
-const estadisticasMujeresLatinas = document.querySelector('label[name="latinas"]');
-const estadisticasMujeresExtranjeras = document.querySelector('label[name="extranjeras"]');
+const mujeresLatinas = document.querySelector('label[name="latinas"]');
+const mujeresExtranjeras = document.querySelector('label[name="extranjeras"]');
 
-estadisticasMujeresLatinas.textContent = "Estadística de mujeres latinas:" + estadistica 
-estadisticasMujeresExtranjeras.textContent = "Estadística de mujeres extrangeras:" + estadistica
-console.log(estadistica)
+mujeresLatinas.textContent = "Total Mujeres Latinas: " + estadisticaMujeresLatinas(data)
+mujeresExtranjeras.textContent = "Total Mujeres Extrangeras: " + estadisticaMujeresExtranjeras(data)

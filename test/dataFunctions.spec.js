@@ -2,7 +2,7 @@
 //import { data as fakeData } from './data.js';
 import { filterData} from '../src/dataFunctions.js';
 
-console.log(fakeData);
+//console.log(fakeData);
 
 describe('filterData', () => {
 

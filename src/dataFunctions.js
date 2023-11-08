@@ -30,10 +30,3 @@ export const sortData = (data, sortBy, sortOrder) => {
   }
   //return data.sort((item) => item.name[sortBy, sortOrder](value));
 };
-
-export const estadistica = (data) => {
-  return (
-    data.reduce((item, birthPlace) => item + data.facts[birthPlace]) /
-    data.length
-  );
-};

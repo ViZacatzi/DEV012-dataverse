@@ -53,4 +53,4 @@ const mujeresLatinas = document.querySelector('label[name="latinas"]');
 const mujeresExtranjeras = document.querySelector('label[name="extranjeras"]');
 
 mujeresLatinas.textContent = "Total Mujeres Latinas: " + estadisticaMujeresLatinas(data)
-mujeresExtranjeras.textContent = "Total Mujeres Extrangeras: " + estadisticaMujeresExtranjeras(data)
+mujeresExtranjeras.textContent = "Total Mujeres Extranjeras: " + estadisticaMujeresExtranjeras(data)

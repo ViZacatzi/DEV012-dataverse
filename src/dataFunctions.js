@@ -49,16 +49,16 @@ export const estadisticaMujeresLatinas = (data) => {
 //Esta función devolvera total de mujeres extrangeras
 export const estadisticaMujeresExtranjeras = (data) => {
   
-  const conteoMujeresExtrangeras = data.reduce((resultado, mujeres) => {
+  const conteoMujeresExtranjeras = data.reduce((resultado, mujeres) => {
     const lugarDeNacimiento = mujeres.facts.birthPlace.toLowerCase();
     const regex =
       /Inglaterra|Macedonia|EE. UU.|Reino Unido|Polonia|Francia|Egipto|Escocia/gi;
-    const coincidenciasExtrangeras = lugarDeNacimiento.match(regex);
-    if (coincidenciasExtrangeras) {
+    const coincidenciasExtranjeras = lugarDeNacimiento.match(regex);
+    if (coincidenciasExtranjeras) {
       resultado = resultado + 1;
     }
     return resultado;
   }, 0);
 
-  return conteoMujeresExtrangeras;
+  return conteoMujeresExtranjeras;
 };

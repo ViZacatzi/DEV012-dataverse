@@ -17,5 +17,5 @@ export const renderItems = (data) => {
 </dl>
 </li>`;
   }
-  return `<ul>${listadeTarjetas}</ul>`;
+  return `<ul class="lista">${listadeTarjetas}</ul>`;
 };

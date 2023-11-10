@@ -88,3 +88,7 @@ div[name="estadistica"] {
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
 }
+.lista{
+  padding: 10px;
+  display: flex;
+}

@@ -42,7 +42,8 @@ selecionAlfabeticamente.addEventListener("change", function () {
 
 const botonClear = document.querySelector('button[name="button-clear"]');
 
-botonClear.addEventListener("click", function () {
+botonClear.addEventListener("click", function (event) {
+  console.log(event);
   selecionar.value = "seleccion";
   selecionAlfabeticamente.value = "seleccion";
   dataFiltrada = [...data];
@@ -52,5 +53,7 @@ botonClear.addEventListener("click", function () {
 const mujeresLatinas = document.querySelector('label[name="latinas"]');
 const mujeresExtranjeras = document.querySelector('label[name="extranjeras"]');
 
-mujeresLatinas.textContent = "Total Mujeres Latinas: " + estadisticaMujeresLatinas(data)
-mujeresExtranjeras.textContent = "Total Mujeres Extranjeras: " + estadisticaMujeresExtranjeras(data)
+mujeresLatinas.textContent =
+  "Total Mujeres Latinas: " + estadisticaMujeresLatinas(data);
+mujeresExtranjeras.textContent =
+  "Total Mujeres Extranjeras: " + estadisticaMujeresExtranjeras(data);

@@ -28,7 +28,7 @@ export const sortData = (data, sortBy, sortOrder) => {
       return 0;
     });
   }
-  //return data.sort((item) => item.name[sortBy, sortOrder](value));
+  
 };
 
 //Esta función devolvera total de mujeres latinas
@@ -36,12 +36,12 @@ export const sortData = (data, sortBy, sortOrder) => {
 export const estadisticaMujeresLatinas = (data) => {
   const conteoMujeresLatinas = data.reduce((resultado, mujeres) => {
     const lugarDeNacimiento = mujeres.facts.birthPlace.toLowerCase();
-    const regex = /méxico|chile|guatemala/gi;
+    const regex = /México|Chile|Guatemala/gi;
     const coincidenciasLatinas = lugarDeNacimiento.match(regex);
     if (coincidenciasLatinas) {
       resultado = resultado + 1;
     }
-    return resultado;
+    return Number(resultado);
   }, 0);
 
   return conteoMujeresLatinas;
@@ -61,5 +61,10 @@ export const estadisticaMujeresExtranjeras = (data) => {
     return resultado;
   }, 0);
 
-  return conteoMujeresExtrangeras;
+  return Number(conteoMujeresExtrangeras);
 };
+
+
+//export const mujeresExtrangeras = (data) => {
+//  return data.map ((item) => item.facts["birthPlace"]);
+//};

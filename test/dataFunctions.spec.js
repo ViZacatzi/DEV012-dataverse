@@ -1,4 +1,3 @@
-//import { example, anotherExample } from '../src/dataFunctions.js';
 import { data as fakeData } from "./data.js";
 import { filterData } from "../src/dataFunctions.js";
 import { sortData } from "../src/dataFunctions.js";
@@ -6,8 +5,6 @@ import { resultadoFakeDataDesc } from "./data.js";
 import { resultadoFakeDataAsc } from "./data.js";
 import { estadisticaMujeresLatinas } from "../src/dataFunctions.js";
 import { estadisticaMujeresExtranjeras } from "../src/dataFunctions.js";
-
-//console.log(fakeData);
 
 describe("filterData", () => {
   it("La data se filtrara por el campo de estudio Artista", () => {

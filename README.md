@@ -109,10 +109,12 @@ e intentando resaltar en las tarjetas la imagen de las protagonistas, en este
 caso especifico a las mujeres.
 
 <img width="370" alt="Prototipo computadoras" src="https://github.com/ViZacatzi/DEV012-dataverse/assets/145049256/cd74ceee-f3d6-4253-95cd-6b6234218274">
-Prototipo para computadora
+
+**Prototipo para computadora**
 
 <img width="210" alt="Prototipo para movil" src="https://github.com/ViZacatzi/DEV012-dataverse/assets/145049256/62cc0f91-993a-4f16-ad6f-d07c25c73cac">
-Prototipo movil
+
+**Prototipo movil**
 
 
 #### Implementación de la Interfaz de Usuaria (HTML/CSS/JS)
@@ -125,8 +127,10 @@ tranquilidad, serenidad, feminidad y la implementación resulto de manera más f
 lo previsto. Finalmente el resultado
 
 <img width="474" alt="Diseño movil web" src="https://github.com/ViZacatzi/DEV012-dataverse/assets/145049256/93af7d62-89f2-4263-aa39-cef7e4d53a35">
-Diseño movil
+
+**Diseño movil**
 
 <img width="1440" alt="Diseño pagina Web" src="https://github.com/ViZacatzi/DEV012-dataverse/assets/145049256/67291df9-d41f-40c7-871c-4c7a2c921cec">
-Diseño Web
+
+**Diseño Web**
 

@@ -1,14 +1,11 @@
 export const renderItems = (data) => {
-  // console.log(data)
-  // Aquí comienza tu código y puedes retornar lo que tu necesites
-  // return 'example';
+  //este codigo renderiza las targetas
   let listadeTarjetas = "";
-  for (let i = 0; i < data.length; i++) {
-    const content = data[i];
-
+  data.forEach((content) => {
     listadeTarjetas += `
-<li class="estilo-tarjetas">
+<li itemscope itemtype="wonderwoman" class="estilo-tarjetas">
 <dl itemscope itemtype="wonderwoman">
+<dd itemprop="id">${content.id}</dd>
 <dd itemprop="name">${content.name}</dd>
 <img class="estilo-imagen" src="${content.imageUrl}">
 <dt>Año de nacimiento:</dt><dd itemprop="yearOfBirth">${content.facts.yearOfBirth}</dd>
@@ -16,6 +13,6 @@ export const renderItems = (data) => {
 <dt>Descripción:</dt><dd itemprop="mainField">${content.facts.mainField}</dd>
 </dl>
 </li>`;
-  }
-  return `<ul class="lista">${listadeTarjetas}</ul>`;
+  });
+  return `<ul itemscope itemtype="wonderwoman" class="lista">${listadeTarjetas}</ul>`;
 };

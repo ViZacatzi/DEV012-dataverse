@@ -10,8 +10,13 @@ import data from "./data/dataset.js";
 let dataFiltrada = [...data];
 
 //Llamado de todas las tarjetas de la data
-const llamadodeTarjeta = document.querySelector("#root");
-llamadodeTarjeta.innerHTML = renderItems(data);
+//const llamadodeTarjeta = document.querySelector("#root");
+//llamadodeTarjeta.innerHTML = renderItems(data);
+const contenidoTarjetas = document.getElementById("root");
+const contenedorTarjetas = document.createElement("div");
+
+contenedorTarjetas.innerHTML = renderItems(data);
+contenidoTarjetas.appendChild(contenedorTarjetas);
 
 //Filtra por disciplina cuando se seleciona
 const selecionar = document.querySelector('select[name="filtroDisciplina"]');
@@ -21,7 +26,8 @@ selecionar.addEventListener("change", function () {
 
   dataFiltrada = filterData(data, "mainField", selecionarDisciplina);
 
-  llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
+  contenedorTarjetas.innerHTML = renderItems(dataFiltrada);
+  //llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
 });
 
 //Filtro acomulativo del filtro por disciplina ordenardo alfabeticamente
@@ -35,7 +41,8 @@ selecionAlfabeticamente.addEventListener("change", function () {
 
   dataFiltrada = sortData(dataFiltrada, "name", selecionarAlfabetica);
 
-  llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
+  contenedorTarjetas.innerHTML = renderItems(dataFiltrada);
+  //llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
 });
 
 //Funcionalidad del botón, cuando se aprieta reinicia la página y las seleciones
@@ -47,7 +54,8 @@ botonClear.addEventListener("click", function (event) {
   selecionar.value = "seleccion";
   selecionAlfabeticamente.value = "seleccion";
   dataFiltrada = [...data];
-  llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
+  contenedorTarjetas.innerHTML = renderItems(dataFiltrada);
+  //llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
 });
 
 const mujeresLatinas = document.querySelector('label[name="latinas"]');

@@ -95,9 +95,19 @@ se desempeñaron las mujeres en la historia y que las hizo grandes.
 
 #### Prompt utilizado
 
-Dentro del readme que armarás, debe incluir una captura de pantalla
-de tu prompt utilizado para generar los datos. Si utilizaste varios prompts,
-puedes adjuntar todas las capturas que necesites.
+El prompt utilizado para generar los datos, fue chatGTP y para la generación de 
+las imagenes utilizamos el generador de imagenes de Microsoft Bing aqui mostramos
+las capturas de pantalla.
+
+
+![Prompt utilizado de ChatGTP](https://github.com/ViZacatzi/DEV012-dataverse/assets/145049256/e26b345b-a718-4971-8658-015dec365c77)
+
+Prompt de ChatGTP
+
+<img width="1440" alt="Generador de Imagenes" src="https://github.com/ViZacatzi/DEV012-dataverse/assets/145049256/7a889ef2-dcd5-4583-872c-dd8a5de55570">
+
+Genenrador de imagenes de Microsoft Bing
+
 
 
 ##### Prototipo de alta fidelidad

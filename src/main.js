@@ -12,10 +12,10 @@ let dataFiltrada = [...data];
 //Llamado de todas las tarjetas de la data
 //const llamadodeTarjeta = document.querySelector("#root");
 //llamadodeTarjeta.innerHTML = renderItems(data);
-const contenidoTarjetas = document.getElementById("root");
+const contenidoTarjetas = document.querySelector("#root");
 const contenedorTarjetas = document.createElement("div");
 
-contenedorTarjetas.innerHTML = renderItems(data);
+contenedorTarjetas.innerHTML = renderItems(dataFiltrada);
 contenidoTarjetas.appendChild(contenedorTarjetas);
 
 //Filtra por disciplina cuando se seleciona

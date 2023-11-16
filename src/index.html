@@ -9,36 +9,42 @@
     <header name="encabezado">
       <h1 name="titulo">GRANDES MUJERES DE LA HISTORIA</h1>
     </header>
-    <main>
-      <nav>
-        <div>
-          <label for="">Filtar por disciplina:</label>
-          <select name="filtroDisciplina" data-testid="select-filter">
-            <option name="selecciona" value="seleccion">-Selecciona-</option>
-            <option value="Activista">Activista</option>
-            <option value="Artista">Artista</option>
-            <option value="Escritora">Escritora</option>
-            <option value="Filosofa">Filósofa</option>
-            <option value="Politica">Política</option>
-          </select>
-          <label for="">Ordenar alfabéticamente:</label>
-          <select name="alfabeticamente" data-testid="select-sort">
-            <option name="selecciona" value="seleccion">-Selecciona-</option>
-            <option value="asc">A - Z</option>
-            <option value="desc">Z - A</option>
-          </select>
-          <button data-testid="button-clear" name="button-clear">Clear</button>
-        </div>
-      </nav>
-    </main>
+    <div>
+      <main>
+        <nav>
+          <div>
+            <label for="">Filtar por disciplina:</label>
+            <select name="filtroDisciplina" data-testid="select-filter">
+              <option name="selecciona" value="seleccion">-Selecciona-</option>
+              <option value="Activista">Activista</option>
+              <option value="Artista">Artista</option>
+              <option value="Escritora">Escritora</option>
+              <option value="Filosofa">Filósofa</option>
+              <option value="Politica">Política</option>
+            </select>
+            <label for="">Ordenar alfabéticamente:</label>
+            <select name="alfabeticamente" data-testid="select-sort">
+              <option name="selecciona" value="seleccion">-Selecciona-</option>
+              <option value="asc">A - Z</option>
+              <option value="desc">Z - A</option>
+            </select>
+            <button data-testid="button-clear" name="button-clear">
+              Clear
+            </button>
+          </div>
+        </nav>
+      </main>
+    </div>
     <div name="estadistica">
-      <label name="latinas">Total Mujeres Latinas:</label><br>
+      <label name="latinas">Total Mujeres Latinas:</label><br />
       <label name="extranjeras">Total Mujeres Extranjeras:</label>
     </div>
     <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>
-  <footer name="pie-de-pagina">
-    Creadoras: Victoria Zacatzi y Aketzali Matus
-  </footer>
+  <div>
+    <footer name="pie-de-pagina">
+      Creadoras: Victoria Zacatzi y Aketzali Matus
+    </footer>
+  </div>
 </html>

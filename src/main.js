@@ -12,7 +12,7 @@ let dataFiltrada = [...data];
 //Llamado de todas las tarjetas de la data
 //const llamadodeTarjeta = document.querySelector("#root");
 //llamadodeTarjeta.innerHTML = renderItems(data);
-const contenidoTarjetas = document.querySelector("#root");
+const contenidoTarjetas = document.getElementById("root");
 const contenedorTarjetas = document.createElement("div");
 
 contenedorTarjetas.innerHTML = renderItems(dataFiltrada);
@@ -55,6 +55,7 @@ botonClear.addEventListener("click", function (event) {
   selecionAlfabeticamente.value = "seleccion";
   dataFiltrada = [...data];
   contenedorTarjetas.innerHTML = renderItems(dataFiltrada);
+  contenidoTarjetas.appendChild(contenedorTarjetas);
   //llamadodeTarjeta.innerHTML = renderItems(dataFiltrada);
 });
 
